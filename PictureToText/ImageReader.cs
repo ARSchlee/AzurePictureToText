@@ -14,8 +14,8 @@ namespace PictureToText
 		public ComputerVisionClient Authenticate(string endpoint, string key)
 		{
 			ComputerVisionClient client =
-				new ComputerVisionClient(new ApiKeyServiceClientCredentials("f327f60e17bb400d93b2ca164420667d"))
-				{ Endpoint = "https://alex-schlee-cv-testing.cognitiveservices.azure.com/" };
+				new ComputerVisionClient(new ApiKeyServiceClientCredentials(""))
+				{ Endpoint = "" };
 			return client;
 		}
 
